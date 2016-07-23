@@ -1,0 +1,25 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Registrador is
+    port
+    (
+        ck, rst, ce: in std_logic;
+        D: in  std_logic_vector(15 downto 0);
+        Q: out std_logic_vector(15 downto 0)
+    );
+end Registrador;
+
+architecture regn of Registrador is
+begin
+    process(ck, rst)
+    begin
+        if rst = '1' then
+            Q <= (others => '0');
+        elsif ck'event and ck = '0' then
+            if ce = '1' then
+                Q <= D; 
+            end if;
+        end if;
+    end process;
+end regn;

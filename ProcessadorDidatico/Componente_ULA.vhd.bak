@@ -1,0 +1,30 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use IEEE.std_logic_arith.all;
+use IEEE.std_logic_signed.all;
+
+entity Componente_ULA is 
+port( 
+	A,B: in std_logic_vector(15 downto 0);
+     S: in bit;
+     O: out std_logic_vector(15 downto 0)
+	  );
+
+end Componente_ULA;
+
+Architecture arq of Componente_ULA is
+Begin
+
+	Process(S,A,B)
+	variable temp : std_logic_vector(15 downto 0);            
+	Begin
+		if S='0' then
+			temp:=A;
+
+		elsif S='1' then                   
+			temp:=B;
+		end if;                                 
+
+	O<=temp;                        
+	end Process;
+end arq; 

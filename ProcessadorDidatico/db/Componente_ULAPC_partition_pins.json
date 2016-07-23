@@ -1,0 +1,137 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "O[0]",
+					"strict" : false
+				},
+				{
+					"name" : "O[1]",
+					"strict" : false
+				},
+				{
+					"name" : "O[2]",
+					"strict" : false
+				},
+				{
+					"name" : "O[3]",
+					"strict" : false
+				},
+				{
+					"name" : "O[4]",
+					"strict" : false
+				},
+				{
+					"name" : "O[5]",
+					"strict" : false
+				},
+				{
+					"name" : "O[6]",
+					"strict" : false
+				},
+				{
+					"name" : "O[7]",
+					"strict" : false
+				},
+				{
+					"name" : "O[8]",
+					"strict" : false
+				},
+				{
+					"name" : "O[9]",
+					"strict" : false
+				},
+				{
+					"name" : "O[10]",
+					"strict" : false
+				},
+				{
+					"name" : "O[11]",
+					"strict" : false
+				},
+				{
+					"name" : "O[12]",
+					"strict" : false
+				},
+				{
+					"name" : "O[13]",
+					"strict" : false
+				},
+				{
+					"name" : "O[14]",
+					"strict" : false
+				},
+				{
+					"name" : "O[15]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[8]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[9]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[10]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[11]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[12]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[13]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[14]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[15]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

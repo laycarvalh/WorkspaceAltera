@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat Jul 16 15:11:59 2016
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+Revision Name : Componente_ULA
+Top-level Entity Name : Componente_ULA
+Family : Cyclone IV E
+Device : EP4CE6E22C6
+Timing Models : Final
+Total logic elements : 102 / 6,272 ( 2 % )
+    Total combinational functions : 102 / 6,272 ( 2 % )
+    Dedicated logic registers : 0 / 6,272 ( 0 % )
+Total registers : 0
+Total pins : 51 / 92 ( 55 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

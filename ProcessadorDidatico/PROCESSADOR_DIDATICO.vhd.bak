@@ -1,0 +1,28 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity PROCESSADOR_DIDATICO is 
+port( 
+	A,B: in std_logic_vector(15 downto 0);
+     S: in bit;
+     O: out std_logic_vector(15 downto 0)
+	  );
+
+end PROCESSADOR_DIDATICO;
+
+Architecture arq of PROCESSADOR_DIDATICO is
+Begin
+
+	Process(S,A,B)
+	variable temp : std_logic_vector(15 downto 0);            
+	Begin
+		if S='0' then
+			temp:=A;
+
+		elsif S='1' then                   
+			temp:=B;
+		end if;                                 
+
+	O<=temp;                        
+	end Process;
+end arq; 
